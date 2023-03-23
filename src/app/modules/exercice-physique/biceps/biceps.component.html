@@ -1,0 +1,32 @@
+<div class="content">
+<div  class="list-group-item">
+
+ 
+
+  <table>
+    <tr >
+      <th>Number</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Equipment</th>
+      <th>Muscle</th>
+      <th>Difficulty</th>
+      <th>Instructions</th>
+
+    </tr>
+
+    <tr  *ngFor="let i of data">
+      <td class="num">{{i+1}}</td>
+    <td>{{i.name}}</td>
+    <td>{{i.type}}</td>
+    <td>{{i.equipment}}</td>
+    <td>{{i.muscle}}</td>
+    <td>{{i.difficulty}}</td>
+    <td>{{i.instructions}}</td>
+
+
+
+    </tr>
+  </table>
+
+</div>

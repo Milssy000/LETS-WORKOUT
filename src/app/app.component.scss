@@ -1,0 +1,12 @@
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+   
+    background-color: adjust-hue($color: #6c76a3, $degrees: 0);
+}
+
+body {
+    margin: 0;
+    
+    background-color: adjust-hue($color: #6c76a3, $degrees: 0);
+}
