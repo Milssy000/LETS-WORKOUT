@@ -1,33 +1,45 @@
-<div class="content">
-  <div class="list-group-item">
 
 
 
-    <table>
-      <tr>
-        <th>Number</th>
-        <th>Name</th>
-        <th>Type</th>
-        <th>Equipment</th>
-        <th>Muscle</th>
-        <th>Difficulty</th>
-        <th>Instructions</th>
 
-      </tr>
-
-      <tr *ngFor="let i of data; let n =index">
-        <td class="number">{{n+1}}</td>
-        <td>{{i.name}}</td>
-        <td>{{i.type}}</td>
+<section class="intro">
+  <div class="bg-image h-100" >
+    <div class="mask d-flex align-items-center h-100">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card mask-custom">
+              <div class="card-body">
+                <div class="table-responsive">
+                  <table class="table table-borderless text-white mb-0">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">type</th>
+                        <th scope="col">equipment</th>
+                        <th scope="col">muscle</th>
+                        <th scope="col">difficulty</th>
+                        <th scope="col">instructions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let i of data">
+                        <th scope="row">{{i.name}}</th>
+                        <td>{{i.type}}</td>
         <td>{{i.equipment}}</td>
         <td>{{i.muscle}}</td>
         <td>{{i.difficulty}}</td>
         <td>{{i.instructions}}</td>
-
-
-
-      </tr>
-    </table>
-
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</section>
