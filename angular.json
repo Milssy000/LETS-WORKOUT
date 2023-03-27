@@ -42,6 +42,7 @@
                   "maximumWarning": "500kb",
                   "maximumError": "1mb"
                 },
+                
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
@@ -63,6 +64,14 @@
                   "with": "src/environments/environment.development.ts"
                 }
               ]
+            },
+            "staging": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.staging.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -75,10 +84,16 @@
             },
             "development": {
               "browserTarget": "LETS_WORKOUT:build:development"
+            },
+            "staging": {
+              "browserTarget": "LETS_WORKOUT:build:staging"
             }
           },
+          
+
           "defaultConfiguration": "development"
         },
+      
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
