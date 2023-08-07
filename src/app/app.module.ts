@@ -15,6 +15,7 @@ import { ApiKeyInterceptor } from './modules/exercice-physique/intercepteurs/api
   declarations: [
     AppComponent
   ],
+  
   imports: [
     BrowserModule,
     HttpClientModule,
