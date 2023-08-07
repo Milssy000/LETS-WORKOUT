@@ -4,6 +4,7 @@ import { HttpClientModule, HttpClient, HttpHeaders } from '@angular/common/http'
 @Injectable({
   providedIn: 'root'
 })
+  
 export class SpiderService {
   getSpiderService() {
     throw new Error('Method not implemented.');
