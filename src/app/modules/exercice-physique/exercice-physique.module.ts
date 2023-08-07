@@ -19,3 +19,4 @@ import { ApiKeyInterceptor } from 'src/app/modules/exercice-physique/intercepteu
   
 })
 export class ExercicePhysiqueModule { }
+
