@@ -13,9 +13,7 @@ export class ApiKeyInterceptor implements HttpInterceptor {
   spiderservice: any;
   constructor(private apiKey: SpiderService) {}
 
-  // getApiKey(): string {
-  //   return this.spiderservice.getApiKey();
-  // }
+
 
   intercept(
     request: HttpRequest<unknown>,
