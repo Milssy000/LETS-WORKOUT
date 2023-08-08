@@ -18,5 +18,7 @@ import { ApiKeyInterceptor } from 'src/app/modules/exercice-physique/intercepteu
   providers: [ {provide:HTTP_INTERCEPTORS, useClass: ApiKeyInterceptor, multi:true}, SpiderService],
   
 })
-export class ExercicePhysiqueModule { }
+export class ExercicePhysiqueModule {
+  //comment
+}
 
