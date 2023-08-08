@@ -25,4 +25,6 @@ import { ApiKeyInterceptor } from './modules/exercice-physique/intercepteurs/api
   bootstrap: [AppComponent]
 })
 
-export class AppModule{}
+export class AppModule{
+  //comment
+}
