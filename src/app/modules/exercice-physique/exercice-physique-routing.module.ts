@@ -14,5 +14,8 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ExercicePhysiqueRoutingModule { }
+export class ExercicePhysiqueRoutingModule {
+  //comment
+}
+
 
